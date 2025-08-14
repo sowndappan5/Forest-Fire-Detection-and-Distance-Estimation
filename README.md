@@ -1,5 +1,10 @@
 # Forest Fire Detection & Distance Estimation System
 
+```
+This repository contains the implementation code for a camera-based forest fire detection and distance estimation system.  
+It is shared for viewing and reference purposes only — the model and dataset are not included.
+```
+
 This project is an AI-powered **Forest Fire Detection and Distance Estimation System** that detects fire in real-time camera feeds and estimates its distance from the camera **without additional hardware**.
 
 The system uses:
@@ -39,79 +44,33 @@ The system uses:
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
 
-````
+```
+
+---
+## ⚠️ Important Notes
+- **This repository does NOT contain:**
+  - Trained YOLOv8 fire detection model (`.pt` file)
+  - Grid calculation dataset
+- Without these files, the notebook cannot be executed — it is intended **only for reading and reference**.
 
 ---
 
-## ⚠️ Missing Files
-This repository **does not include**:
-1. **Trained fire detection model** (YOLOv8 `.pt` file)  
-   - Required for running the fire detection part of the code.
-2. **Grid calculation dataset**  
-   - Required for accurate perspective mapping and distance estimation.
-
-These files are excluded due to size and licensing constraints.
-
----
-
-## 📥 How to Use
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/forest-fire-detection.git
-   cd forest-fire-detection
-````
-
-2. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Add the missing files**
-
-   * Place your YOLOv8 fire detection model file in the project folder.
-   * Place your grid calculation dataset in the `data/` folder (or update the notebook path).
-
-4. **Run the notebook**
-
-   * Open `app.ipynb` in Jupyter Notebook or JupyterLab.
-   * Update the camera height and tilt angle parameters as needed.
-   * Run all cells to start detection and distance estimation.
-
----
-
-## 📊 Distance Estimation Method
-
-* Uses **camera calibration** (height + tilt angle).
-* Applies **perspective projection** to map pixel positions to ground distance.
-* Outputs estimated fire distance in meters.
-
----
-
-## 🚀 Possible Improvements
-
-* Integrate **thermal imaging** for low-light detection.
-* Add **multi-camera triangulation** for higher accuracy.
-* Implement **real-time alert systems** (SMS, Email, IoT triggers).
+## 🖼️ System Workflow
+1. **Camera Calibration** – Input camera height and tilt angle.
+2. **Fire Detection** – YOLOv8 model detects flames in the video feed.
+3. **Distance Estimation** – Perspective mapping calculates approximate distance.
 
 ---
 
 ## 📜 License
-
-This project is for **research and educational purposes only**. Use at your own risk for deployment in real environments.
+This project is shared for **educational and research viewing only**.
 
 ---
 
 ## 👤 Author
-
 **Sowndappan S**
-📧 Email: [2k22it50@kiot.ac.in](mailto:2k22it50@kiot.ac.in)
-🔗 [LinkedIn](https://linkedin.com/in/your-link)
+Email: santoshsowndappan@gmail.com
 
-```
+**Mythili S**
 
 ---
-
-If you want, I can also make a **requirements.txt** file for this repo so people can run `pip install -r requirements.txt` directly and not guess the dependencies.  
-Do you want me to prepare that?
-```
