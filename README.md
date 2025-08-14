@@ -7,7 +7,7 @@ It is shared for viewing and reference purposes only — the model and dataset a
 
 This project is an AI-powered **Forest Fire Detection and Distance Estimation System** that detects fire in real-time camera feeds and estimates its distance from the camera **without additional hardware**.
 
-## For View
+## For View: Click Any
 
 <table>
   <tr>
