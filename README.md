@@ -7,6 +7,16 @@ It is shared for viewing and reference purposes only — the model and dataset a
 
 This project is an AI-powered **Forest Fire Detection and Distance Estimation System** that detects fire in real-time camera feeds and estimates its distance from the camera **without additional hardware**.
 
+## For View
+
+**System Screen:**  
+[![System Screen](Media/1.png)](https://github.com/sowndappan5/Forest-Fire-Detection-and-Distance-Estimation/blob/main/Media/Forest%20fire%20Screen%20View.mp4)
+
+**Real Time:**  
+[![Real Time](Media/2.png)](https://github.com/sowndappan5/Forest-Fire-Detection-and-Distance-Estimation/blob/main/Media/forest%20fire%20side%20view.mp4)
+
+
+
 The system uses:
 - **YOLOv8** for fire detection.
 - **Perspective Grid Mapping** for distance estimation using only camera parameters.
