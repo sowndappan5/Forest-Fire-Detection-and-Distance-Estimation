@@ -9,13 +9,22 @@ This project is an AI-powered **Forest Fire Detection and Distance Estimation Sy
 
 ## For View
 
-**System Screen:**  
-[![System Screen](Media/1.png)](https://github.com/sowndappan5/Forest-Fire-Detection-and-Distance-Estimation/blob/main/Media/Forest%20fire%20Screen%20View.mp4)
-
-**Real Time:**  
-[![Real Time](Media/2.png)](https://github.com/sowndappan5/Forest-Fire-Detection-and-Distance-Estimation/blob/main/Media/forest%20fire%20side%20view.mp4)
-
-
+<table>
+  <tr>
+    <td>
+      <strong>System Screen:</strong><br>
+      <a href="https://github.com/sowndappan5/Forest-Fire-Detection-and-Distance-Estimation/blob/main/Media/Forest%20fire%20Screen%20View.mp4">
+        <img src="Media/1.png" width="300">
+      </a>
+    </td>
+    <td>
+      <strong>Real Time:</strong><br>
+      <a href="https://github.com/sowndappan5/Forest-Fire-Detection-and-Distance-Estimation/blob/main/Media/forest%20fire%20side%20view.mp4">
+        <img src="Media/2.png" width="300">
+      </a>
+    </td>
+  </tr>
+</table>
 
 The system uses:
 - **YOLOv8** for fire detection.
